@@ -12,7 +12,7 @@ function GreetingComponent() {
       <label htmlFor="name">Enter your name:</label>
       <input type="text" id="name" value={name} onChange={handleInputChange} />
 
-      {name && <p>Hello {name}!</p>}
+      { <p>Hello {name}!</p>}
     </div>
   );
 }
